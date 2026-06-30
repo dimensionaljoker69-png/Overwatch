@@ -6,3 +6,21 @@
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
   --font-display: "Space Grotesk", sans-serif;
 }
+
+/* Tactical Map Ruler & Cursor Customizations */
+.measuring-cursor .leaflet-container {
+  cursor: crosshair !important;
+}
+
+.tactical-measure-popup .leaflet-popup-content-wrapper {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.tactical-measure-popup .leaflet-popup-tip {
+  background: #09090b !important;
+  border-left: 1px solid rgba(34, 211, 238, 0.4) !important;
+  border-bottom: 1px solid rgba(34, 211, 238, 0.4) !important;
+}
