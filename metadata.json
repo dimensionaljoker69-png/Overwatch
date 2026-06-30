@@ -1,0 +1,6 @@
+{
+  "name": "W.O.L.F. Tactical Grid",
+  "description": "W.O.L.F. Tactical Logistics, Triage, and Overwatch system with live traffic cameras, GPS telemetry, safety frequencies, and Google Workspace integration.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
